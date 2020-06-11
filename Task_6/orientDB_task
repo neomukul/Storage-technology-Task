@@ -2,14 +2,4 @@
 
 echo 'Working with OrientDB'
 cd $HOME/Downloads/orientdb-community-importers-2.2.37/bin
-./console.sh <<EOF
-
-
-CONNECT remote:localhost/GratefulDeadConcerts root P@ssword10 
-
-
-
-
-
-EOF
-
+./server.sh 
